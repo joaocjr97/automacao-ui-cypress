@@ -13,5 +13,3 @@ Automatizar o fluxo de cadastro de um novo usuário, validando se o cadastro foi
 - Node.js (recomendado: v16 ou superior)
 - JavaScript
 - Padrão de projeto: Page Objects
-
-## :file_folder: Estrutura das Pastas
