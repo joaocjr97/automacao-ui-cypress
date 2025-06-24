@@ -1,16 +1,15 @@
 {
-  "name": "criacao-conta-cy",
+  "name": "intercept-cy",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "cy:open": "cypress open",
-    "cy:run": "cypress run"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "description": "",
+  "main": "index.js",
+  "author": "joão c",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+  },
   "devDependencies": {
-    "cypress": "^14.5.0"
   }
 }
