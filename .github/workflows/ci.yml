@@ -29,10 +29,8 @@ jobs:
         run: npx cypress run || true  # use '|| true' para continuar e gerar relatório mesmo com falha
 
       # Gera o relatório completo Mochawesome
-      - name: Generate Mochawesome HTML Report
-        run: |
-          npx mochawesome-merge ./mochawesome-report/*.json > mochawesome-report/merged-report.json
-          npx marge mochawesome-report/merged-report.json -f report -o mochawesome-report
+      - name: List mochawesome report files
+        run: ls -lh mochawesome-report || echo 'No report generated'
 
       # Publica o relatório no GitHub Pages
       - name: Publish Report on GitHub Pages
