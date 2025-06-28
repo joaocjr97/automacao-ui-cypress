@@ -1,5 +1,5 @@
 {
-  "name": "criacao-conta-cy",
+  "name": "cadastro-intercept",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "cadastro-intercept",
   "devDependencies": {
+    "@reportportal/agent-js-cypress": "^5.5.0",
     "cypress": "^14.5.0"
   }
 }
